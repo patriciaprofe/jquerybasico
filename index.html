@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+     crossorigin="anonymous"></script>
+    <title>ejemplo jquery</title>
+    <script>
+        $(document).ready(function(){ 
+          $("#boton1").click(function(){
+            $("h2").hide();
+          });
+          $("#boton2").click(function(){
+            $("h2").show();
+          });
+        });
+
+    </script>
+</head>
+<body>
+    <h2>Cabecera</h2>
+
+    <button id="boton1">Ocultemos el titulo</button>
+    <button id="boton2">Mostremos el título</button>
+
+</body>
+</html>
